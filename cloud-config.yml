@@ -4,11 +4,11 @@ spring:
       - dev
 ---
 server:
-  port: 8201
+  port: 8203
 spring:
   profiles: dev
   application:
-    name: cloud-config-client-dev
+    name: cloud-config-client-dev11
 ---
 server:
   port: 8202
